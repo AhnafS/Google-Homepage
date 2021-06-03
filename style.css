@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+#nav-list li, a{
+    list-style-type: none;
+    margin-right: .8em;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-button {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    background-image: url(images/google-icons-mixed.png);
+    background-position-x: -132px;
+    background-position-y: -44px;
+    border: none;
+    padding: 3px;
+    
+}
+
+#nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+main #logo {
+    width: 20em;
+    height: 6em;
+}
+
+main #searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+    padding: .5em;
+    width: 15em;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: thin;
+    border-color: rgb(201, 198, 195);
+    /* box-sizing: border-box; */
+    width: 38em;
+    margin-bottom: 3vh;
+}
+
+main #search-text {
+    width: 90%;
+    height: 2em;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+} 
+
+.search-button {
+    padding: .8em;
+    font-size: .9em;
+    margin: 0 1em 0 1em;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color:#f8f9fa;
+}
+
+.search-button:hover {
+    border: 1px solid;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav-button:hover {
+    border: 1px solid transparent;
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color:#dddddd;
+    flex-wrap: wrap;
+}
+
+.footer-left li,
+.footer-right li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-right {
+    margin-right: 2em;
+}
+
+#profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: -5px;
+}
